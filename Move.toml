@@ -1,0 +1,10 @@
+[package]
+name = 'usdt_1'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'git@github.com:aptos-labs/aptos-core.git'
+rev = 'conversions'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+admin = '0x637615c7f062d2877ad8542b11c174c41fe8e0e0ab66bb4145bfd594bf468c05'
+# BasicCoin = "0xBC"
